@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DF410171DEEAC2A00318EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF410161DEEAC2A00318EF4 /* main.m */; };
+		0DF4101F1DEEB17C00318EF4 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF4101E1DEEB17C00318EF4 /* Human.m */; };
+		0DF410221DEEB3D800318EF4 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF410211DEEB3D800318EF4 /* Student.m */; };
+		0DF410251DEECD5900318EF4 /* Homework.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF410241DEECD5900318EF4 /* Homework.m */; };
+		0DF410281DEECD6900318EF4 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF410271DEECD6900318EF4 /* Teacher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0DF410111DEEAC2A00318EF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0DF410131DEEAC2A00318EF4 /* CLIDEMO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CLIDEMO; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF410161DEEAC2A00318EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DF4101D1DEEB17C00318EF4 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		0DF4101E1DEEB17C00318EF4 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		0DF410201DEEB3D800318EF4 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		0DF410211DEEB3D800318EF4 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		0DF410231DEECD5900318EF4 /* Homework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Homework.h; sourceTree = "<group>"; };
+		0DF410241DEECD5900318EF4 /* Homework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Homework.m; sourceTree = "<group>"; };
+		0DF410261DEECD6900318EF4 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		0DF410271DEECD6900318EF4 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DF410101DEEAC2A00318EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DF4100A1DEEAC2900318EF4 = {
+			isa = PBXGroup;
+			children = (
+				0DF410151DEEAC2A00318EF4 /* CLIDEMO */,
+				0DF410141DEEAC2A00318EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DF410141DEEAC2A00318EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DF410131DEEAC2A00318EF4 /* CLIDEMO */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DF410151DEEAC2A00318EF4 /* CLIDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				0DF410161DEEAC2A00318EF4 /* main.m */,
+				0DF4101D1DEEB17C00318EF4 /* Human.h */,
+				0DF4101E1DEEB17C00318EF4 /* Human.m */,
+				0DF410201DEEB3D800318EF4 /* Student.h */,
+				0DF410211DEEB3D800318EF4 /* Student.m */,
+				0DF410231DEECD5900318EF4 /* Homework.h */,
+				0DF410241DEECD5900318EF4 /* Homework.m */,
+				0DF410261DEECD6900318EF4 /* Teacher.h */,
+				0DF410271DEECD6900318EF4 /* Teacher.m */,
+			);
+			path = CLIDEMO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DF410121DEEAC2A00318EF4 /* CLIDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF4101A1DEEAC2A00318EF4 /* Build configuration list for PBXNativeTarget "CLIDEMO" */;
+			buildPhases = (
+				0DF4100F1DEEAC2A00318EF4 /* Sources */,
+				0DF410101DEEAC2A00318EF4 /* Frameworks */,
+				0DF410111DEEAC2A00318EF4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLIDEMO;
+			productName = CLIDEMO;
+			productReference = 0DF410131DEEAC2A00318EF4 /* CLIDEMO */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DF4100B1DEEAC2900318EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Justin Fincher";
+				TargetAttributes = {
+					0DF410121DEEAC2A00318EF4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9QJ8M25J77;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0DF4100E1DEEAC2900318EF4 /* Build configuration list for PBXProject "CLIDEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DF4100A1DEEAC2900318EF4;
+			productRefGroup = 0DF410141DEEAC2A00318EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DF410121DEEAC2A00318EF4 /* CLIDEMO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DF4100F1DEEAC2A00318EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF410171DEEAC2A00318EF4 /* main.m in Sources */,
+				0DF410251DEECD5900318EF4 /* Homework.m in Sources */,
+				0DF4101F1DEEB17C00318EF4 /* Human.m in Sources */,
+				0DF410281DEECD6900318EF4 /* Teacher.m in Sources */,
+				0DF410221DEEB3D800318EF4 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DF410181DEEAC2A00318EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0DF410191DEEAC2A00318EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0DF4101B1DEEAC2A00318EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = 9QJ8M25J77;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DF4101C1DEEAC2A00318EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = 9QJ8M25J77;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DF4100E1DEEAC2900318EF4 /* Build configuration list for PBXProject "CLIDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF410181DEEAC2A00318EF4 /* Debug */,
+				0DF410191DEEAC2A00318EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF4101A1DEEAC2A00318EF4 /* Build configuration list for PBXNativeTarget "CLIDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF4101B1DEEAC2A00318EF4 /* Debug */,
+				0DF4101C1DEEAC2A00318EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DF4100B1DEEAC2900318EF4 /* Project object */;
+}
